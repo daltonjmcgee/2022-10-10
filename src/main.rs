@@ -1,4 +1,4 @@
-use std::{fs::File, io::{Read, Error}, path::Path};
+use std::{fs::File, io::{Read}};
 
 fn main() -> std::io::Result<()> {
     let mut data = String::new();
